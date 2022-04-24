@@ -9,7 +9,10 @@
   },
   "author": "Project Error",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@nativewrappers/client": "^1.7.6",
+    "esx.js": "^1.1.8"
+  },
   "devDependencies": {
     "@citizenfx/client": "^2.0.5012-1",
     "@citizenfx/server": "^2.0.5012-1",
