@@ -1,5 +1,5 @@
 import * as CFX from "@nativewrappers/client";
-import { Cfg } from './typings'
+import Cfg from './typings'
 
 const currentResourceName = GetCurrentResourceName();
 

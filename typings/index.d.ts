@@ -1,3 +1,3 @@
-export interface Cfg {
+export default interface Cfg {
     started: boolean;
 }
