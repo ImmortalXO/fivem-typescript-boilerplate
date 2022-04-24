@@ -2,6 +2,8 @@ import * as CFX from "@nativewrappers/client";
 
 const currentResourceName = GetCurrentResourceName();
 
-export const config = JSON.parse(
+const Config = JSON.parse(
   LoadResourceFile(currentResourceName, "config.json")
 );
+
+export default Config;

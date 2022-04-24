@@ -1,11 +1,11 @@
 import { myRandomData } from "./MyOther.server";
-import { config } from "../config";
+import Config from '../config';
 
 on("onResourceStart", (resName: string) => {
   if (resName === GetCurrentResourceName()) {
-    config.started = true;
+    Config.started = true;
     console.log("TypeScript boilerplate started!");
     console.log(myRandomData);
-    console.log(`${config.started} on server.`);
+    console.log(`Started: ${Config.started} on server.`);
   }
 });
