@@ -1,5 +1,5 @@
 import { myRandomData } from "./MyOther.client";
-import Config from "../config";
+import Config from "./config";
 
 on('onResourceStart', (resName: string) => {
   if (resName === GetCurrentResourceName()) {
